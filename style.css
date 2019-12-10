@@ -1,0 +1,62 @@
+/* Default format */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+/* switch */
+label.checkbox{
+
+}
+
+label.checkbox input{
+  /* opacity: 1; */
+  display: none;
+}
+
+label.checkbox span{
+  background-color: #ebebeb;
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid #cacaca;
+  position: relative;
+}
+
+
+label.checkbox span span{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+}
+
+
+/* style for switch span */
+label.checkbox input:checked + span{
+  background-color: #21d200;
+  border-color: #1cb300;
+}
+
+label.checkbox input:checked + span > span{
+  right: 1px;
+
+
+}
+
+
+
+
+
+
+
+
+/* end line */
